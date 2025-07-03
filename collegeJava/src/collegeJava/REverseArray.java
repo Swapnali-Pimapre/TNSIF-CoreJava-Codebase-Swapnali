@@ -16,6 +16,7 @@ public class REverseArray {
 		for(int i=0;i<size;i++) {
 			arr[i]=c.nextInt();
 		}
+		System.out.println("Array before reversing");
 		
 		for(int i=0;i<size;i++) {
 			System.out.println(arr[i]);
@@ -30,6 +31,7 @@ public class REverseArray {
 			i++;
 			end--;
 		}
+		System.out.println("Array after reverse:");
 		for(int j=0;j<size;j++) {
 			System.out.println(arr[j]);
 		}
